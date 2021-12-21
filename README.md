@@ -3,11 +3,11 @@ Repository to understand invoking C functions from Golang
 
 # C implementation
 A Linked list where each node has an `int` key and an `int` value. Linked list supports the following behaviors -
-- `put` which puts a key, and an associated value 
-- `get` which returns the value by key 
-- `getAllValues` which returns all the values
+- `put` puts a key, and an associated value 
+- `get` returns the value by key 
+- `getAllValues` returns all the values
 - `length` returns the number of nodes in the linked list
-- `close` which frees the memory allocated for the linked list
+- `close`  frees the memory allocated for the linked list
 
 # Building C Code
 Run the following command in linked list package
@@ -15,10 +15,10 @@ Run the following command in linked list package
 `gcc -c linkedlist.c`
 
 # GO implementation
-- `Put` which invokes `C's put`
-- `GetBy` which invokes `C's get`
-- `GetAllValues` which invokes `C's getAllValues`
-- `Close` which invokes `C's close`
+- `Put` invokes `C's put`
+- `GetBy` invokes `C's get`
+- `GetAllValues` invokes `C's getAllValues`
+- `Close` invokes `C's close`
 
 # Building GO Code
 Run the following command in linked list package
