@@ -15,10 +15,10 @@ Run the following command in linked list package
 `gcc -c linkedlist.c`
 
 # GO implementation
-- `Put` which invokes `C put`
-- `GetBy` which invokes `C get`
-- `GetAllValues` which invokes `C getAllValues`
-- `Close` which invokes `C close`
+- `Put` which invokes `C's put`
+- `GetBy` which invokes `C's get`
+- `GetAllValues` which invokes `C's getAllValues`
+- `Close` which invokes `C's close`
 
 # Building GO Code
 Run the following command in linked list package
