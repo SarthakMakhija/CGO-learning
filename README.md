@@ -3,7 +3,7 @@ Repository to understand invoking C functions from Golang
 
 # C implementation
 A Linked list where each node has an `int` key and an `int` value. Linked list supports the following behaviors -
-- `put` puts a key, and an associated value 
+- `put` puts a key, and the associated value 
 - `get` returns the value by key 
 - `getAllValues` returns all the values
 - `length` returns the number of nodes in the linked list
